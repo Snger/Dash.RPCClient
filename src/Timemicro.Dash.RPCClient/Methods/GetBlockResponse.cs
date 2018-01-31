@@ -50,7 +50,7 @@ namespace Timemicro.Dash.RPCClient.Methods
         public long MedianTime { get; set; }
 
         [JsonProperty("nonce")]
-        public string Nonce { get; set; }
+        public long Nonce { get; set; }
 
         [JsonProperty("bits")]
         public string Bits { get; set; }
