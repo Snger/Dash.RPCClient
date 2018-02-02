@@ -11,7 +11,7 @@ namespace TimemicroCore.Dash.RPCClient.ConsoleApp
         {
             Console.WriteLine("Hello World!");
 
-            Console.WriteLine(new GetBalanceParams() { Account = "snger"});
+            Console.WriteLine(new GetBalanceParams() { Account = "timemicro"});
 
             JsonRPCClient client = new JsonRPCClient("http://127.0.0.1:19998", "dashrpc", "pwd123456", "");
             
